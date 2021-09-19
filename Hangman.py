@@ -7,10 +7,10 @@
 
 import random
 import time
-print("Introduction:\nAll the words will be related to animals.\nYou are suppose to guess a character at a time and there is only 15 guesses for each word.")
+print("Introduction:\nAll the words will be related to animals.\nYou are suppose to guess a character at a time and there is only 20 guesses for each word.")
 print("Hint: start guessing with a/e/i/o/u.")
 time.sleep(0.5)
-word_list=["human species", "horse a", "sloth a", "snake a", "rat a", "bear a", "penguin a", "starfish a", "fish a", "squarel a"]
+word_list=["human species", "horse", "sloth", "snake", "rat", "bear", "penguin", "starfish", "fish", "squarel"]
 n=random.randint(0,9)
 word=word_list[n]
 words=word.split(' ')
